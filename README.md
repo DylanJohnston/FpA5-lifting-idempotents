@@ -1,5 +1,7 @@
 # Lifting Idempotents from $`\mathbb{F}_pA_5`$ to $`\mathbb{Z}_{(p)}A_5`$
 
+Supplementary code for the paper "[On a question by Roggenkamp about group algebras](https://arxiv.org/abs/2507.21316)", which was joint work with Dmitriy Rumynin.
+
 Let $`\mathbb{F}_p`$ be the prime field of characteristic $`p`$, and let $`\mathbb{Z}_{(p)}`$ denote the localisation of the integers at the prime $`p`$. Let $`A_5`$ be the alternating group on $`5`$ letters. We have $`|A_5| = 60 = 2^2\cdot3\cdot5`$.
 
 Lifting an idempotent $`\overline{e} \in \mathbb{F}_pA_5`$ to $`\mathbb{Z}_{(p)}A_5`$ amounts to finding an element $`e \in \mathbb{Z}_{(p)}A_5`$ such that:
@@ -18,4 +20,4 @@ Details can be found in the following notebooks:
 - [idempotent-lift-F_3A_5.ipynb](https://github.com/DylanJohnston/FpA5-lifting-idempotents/blob/main/idempotent-lift-F_3A_5.ipynb)
 - [idempotent-lift-F_5A_5.ipynb](https://github.com/DylanJohnston/FpA5-lifting-idempotents/blob/main/idempotent-lift-F_5A_5.ipynb)
 
-All three notebooks follow a similar structure. In fact, the $`p = 3`$ case was completed first, and the others are copies of it with the relevant modifications. This approach results in heavy code repetition, but in return, each notebook is fully self-contained. I felt this was worth it.
+All three notebooks follow a similar structure. In fact, the $`p = 3`$ case was completed first, and the others are copies of it with the relevant modifications. This approach results in heavy code repetition, but in return, each notebook is fully self-contained. This was deemed to be worth it.
